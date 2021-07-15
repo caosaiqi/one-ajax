@@ -1,0 +1,28 @@
+{
+  "name": "one-ajax",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "rollup --c ",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caosaiqi/one-ajax.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caosaiqi/one-ajax/issues"
+  },
+  "homepage": "https://github.com/caosaiqi/one-ajax#readme",
+  "dependencies": {
+    "@rollup/plugin-buble": "^0.21.3",
+    "@rollup/plugin-typescript": "^8.2.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}
