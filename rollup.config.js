@@ -1,6 +1,7 @@
-// rollup.config.js
 import path from 'path'
 import typescript from '@rollup/plugin-typescript';
+import buble from 'rollup-plugin-buble';
+
 module.exports = {
   input: path.resolve(__dirname, 'mian.ts'),
   output: [
@@ -10,8 +11,8 @@ module.exports = {
     },
   ],
   plugins: [
+    buble(),
     typescript({
-      //baseUrl: path.resolve(__dirname, 'main.ts'),
       paths: {
         'types/*': ['./types/*'],
         'src/*': ['./src/*']

@@ -1,3 +1,3 @@
-import OneFetch from 'src/oneFetch'
+import OneFetch from './src/oneFetch'
 
 export default OneFetch
